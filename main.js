@@ -111,17 +111,17 @@ O SEA buscar cosas en el DOM y luego guardarlas
 
 let allStudents = []
 
-const createStudent = ()  => {
-    let firstNameField = document.getElementById('firstName')
-    let lastNameField = document.getElementById('lastName')
+const createStudent = () => {
+    let firstnameField = document.getElementById('first_name')
+    let lastnameField = document.getElementById('last_name')
     let birthdateField = document.getElementById('birthdate')
     let student = {
-        firstName: firstNameField.value,
-        lastName: lastNameField.value,
-        birthdate: birthdateField.value
+      first_name: firstnameField.value,
+      last_name: lastnameField.value,
+      birthdate: birthdateField.value
     }
     allStudents.push(student)
-}
+  }
 
 
 
